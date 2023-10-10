@@ -144,8 +144,12 @@ Dica: utilizamos “\(valor)” para inserirmos o valor de uma variável ou cons
 💥 Class	💥 Struct			💥 Protocol
 💫 Any
 ...</pre>
-				<h4>💾 Tipos de declaração geral</h4>
+				<h4>💾 Variáveis, constantes e tipos de declaração geral</h4>
 				<pre>
+* let --> constante (imutável)
+* var --> variável (mutável)
+========
+Tipos de declarações:
 * let num; —> num = 1
 * let num = 1;
 * let num: Int = 1; </pre>
