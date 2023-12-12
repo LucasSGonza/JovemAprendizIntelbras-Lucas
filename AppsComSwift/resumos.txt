@@ -134,7 +134,7 @@ https://www.hackingwithswift.com/example-code/uikit/how-to-limit-the-number-of-c
 
 UI/UX:
 -https://fonts.google.com/icons
--https://developer.appl.com/design/human-interface-guidelines/text-fields
+-https://developer.apple.com/design/human-interface-guidelines/text-fields
 -https://m2.material.io/components/text-fields/ios
 
 -----
