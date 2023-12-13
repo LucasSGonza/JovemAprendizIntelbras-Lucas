@@ -147,3 +147,34 @@ https://www.youtube.com/watch?v=orONrVT6CAg
 SearchBar Delegate
 https://medium.com/@himanshunag/searchbar-in-swift-ios-14e66d8ce29d
 
+-----
+
+How to Add Pull-to-Refresh to a Table View or Collection View
+https://cocoacasts.com/how-to-add-pull-to-refresh-to-a-table-view-or-collection-view
+
+-----
+
+UICollection View:
+
+https://www.youtube.com/watch?v=TQOhsyWUhwg
+https://stackoverflow.com/questions/13970950/uicollectionview-spacing-margins
+
+-----
+
+@escaping closure:
+
+https://www.logilax.com/swift-escaping-closure/#:~:text=In%20Swift%2C%20a%20closure%20marked,the%20surrounding%20function%20is%20gone”.
+
+------
+
+Progress view bar:
+
+https://www.digitalocean.com/community/tutorials/ios-progress-bar-progress-view
+
+------
+
+Enum: 
+
+https://blog.logrocket.com/swift-enums-an-overview-with-examples/
+
+------
