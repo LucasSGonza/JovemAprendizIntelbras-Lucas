@@ -68,6 +68,9 @@ link: <a href='https://blog.betrybe.com/git/git-checkout/#1'>https://blog.betryb
 <div id='links'>
 	<details>
 		<summary style='font-size:x-large'>🔗 Links</summary>
+		<h4>📱 Desenvolvimento Mobile iOS</h4>
+		<pre>
+➡ <a href='https://github.com/LucasSGonza/JovemAprendizIntelbras-Lucas/blob/main/AppsComSwift/MyApps/myApps.md'>https://github.com/LucasSGonza/JovemAprendizIntelbras-Lucas/blob/main/AppsComSwift/MyApps/myApps.md</a></pre>
 		<h4>🌎Links Gerais</h4>
 		<pre>
 ➡ <a href='https://gitfichas.com/'>https://gitfichas.com/</a><br>
@@ -86,7 +89,7 @@ link: <a href='https://blog.betrybe.com/git/git-checkout/#1'>https://blog.betryb
 ➡ <a href='https://www.tutorialspoint.com/swift-program-to-get-input-from-the-user#'>https://www.tutorialspoint.com/swift-program-to-get-input-from-the-user#</a><br>
 ➡ <a href='https://www.codecademy.com/learn/learn-swift/modules/learn-swift-hello-world/cheatsheet'>https://www.codecademy.com/learn/learn-swift/modules/learn-swift-hello-world/cheatsheet</a>
   		</pre>
-		<h4>📱 Desenvolvimento Mobile<h4>
+		<h4>📖Links de estudo<h4>
 		<pre>
 ➡ <a href='https://www.alura.com.br/artigos/ios-swift-diferencas-construcao-layouts-storyboard-xib-view-code?gclid=CjwKCAjwp6CkBhB_EiwAlQVyxTN_Ww64Fd-mqoph6pqmOBo-G1BNj3CfPyQqXxegOwGjbAr8yUsJPBoCj5kQAvD_BwE'>https://www.alura.com.br/artigos/ios-swift-diferencas-construcao-layouts-storyboard-xib-view-code?gclid=CjwKCAjwp6CkBhB_EiwAlQVyxTN_Ww64Fd-mqoph6pqmOBo-G1BNj3CfPyQqXxegOwGjbAr8yUsJPBoCj5kQAvD_BwE</a><br>
 ➡ <a href='https://medium.com/good-morning-swift/ios-view-controller-life-cycle-2a0f02e74ff5'>https://medium.com/good-morning-swift/ios-view-controller-life-cycle-2a0f02e74ff5</a><br>
