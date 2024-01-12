@@ -104,8 +104,7 @@ link: <a href='https://blog.betrybe.com/git/git-checkout/#1'>https://blog.betryb
 
 <div id='swift'>
 	<details>
-		<summary style='font-size:x-large'>
-		<img src='https://img.shields.io/badge/Swift-FA7343?style=flat&logo=swift&logoColor=white' width='73px'></summary><br>
+		<summary style='font-size:x-large'><img src='https://img.shields.io/badge/Swift-FA7343?style=flat&logo=swift&logoColor=white' width='70px' align='center'></summary><br>
 		<div>
 			<details id="caracteristicaslinguagem">
 			<summary style='font-size:medium'>📚 Características da Linguagem</summary>
@@ -507,5 +506,17 @@ class Employee: Greet {<br>
 				<a href='#top'>Back to top</a>
 			</details>
 		</div>
+	</details>
+</div>
+<hr>
+<div id= 'kotlin'>
+	<details>
+		<summary><img src='https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white' width='70px' align='center'></summary><br>
+		<pre>
+			<h4>Introdução geral ao Kotlin</h4>
+			<ul>
+				<li>https://blog.geekhunter.com.br/introducao-a-kotlin/</li>
+			</ul>
+		</pre>
 	</details>
 </div>
