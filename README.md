@@ -107,4 +107,6 @@ Repositório voltado para ***organizar, registrar e manter*** todos os conhecime
 ➡ [YouTube - Swift Tutorial: How to Use Segues and Pass Data Between View Controllers](https://www.youtube.com/watch?v=09TeUXjzpKs)
 
 ---
-//adicionar redirecionamento para markdowm de swift e kotlin
+### Para mais informações sobre **Swift** e **Kotlin**
+- [Swift](https://github.com/LucasSGonza/JovemAprendizIntelbras-Lucas/blob/main/Swift/README.md)
+//kotlin
