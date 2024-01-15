@@ -53,7 +53,7 @@ Ex:
 
 🍺 IS ➡ funciona como um if, no caso como se fosse uma afirmação, que retornará um booleano. 
 Ex:
-```
+```swift
 nota is Double //true
 nome is Int //false
 ```
@@ -61,7 +61,7 @@ nome is Int //false
 🍷 AS ➡ funciona como uma atribuição (como em SQL), no caso indicando um tipo para a variável/objeto caso este não esteja explícito. É utilizado juntamente dos operadores  `!` e `?`, 
 assim como nas opcionais. 
 Ex:
-```
+```swift
 //forçar o desempacotamento (usado quando se tem certeza do tipo da variável)
 
 nome as! String<br>
@@ -71,7 +71,7 @@ nome as! String<br>
 email as? String
 ```
 
-## 🎮 Operadores Lógicos
+## 🎮 Operadores
 - No geral, iguais às outras linguagens (`<, >, //, ==, !=, !, +=, -=, …, &&, ||`)
 - Link: [Swift Basic Operators](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/basicoperators/)
 
@@ -114,35 +114,35 @@ email as? String
 - **Os retornos dos valores sempre são como Opcionais**
 - É do tipo **Value Type**
 - Usos gerais:
-```
+```swift
 ◽ Sintaxe de criação:
 
 var products: [tipoChave : tipoValor] = [ : ] —> iniciando vazia
 
-◽ CRUD valores (sempre atento ao tipo da chave e do valor):
+//◽ CRUD valores (sempre atento ao tipo da chave e do valor):
 
-🟣CREATE ja na criação do dicionario  —>
+//🟣CREATE ja na criação do dicionario  —>
 var products: [Int : String] = [1 : “Fone de ouvido”]
 
-🟣CREATE/UPDATE normal —>
+//🟣CREATE/UPDATE normal —>
 products[1] = “Fone de ouvido”
 
-🟣MÉTODO CREATE/UPDATE —> 
+//🟣MÉTODO CREATE/UPDATE —> 
 dictionary.updateValue(valor, forKey: chave) // add or update a key-value
 
-🔵DELETE meio estranho —> 
+//🔵DELETE meio estranho —> 
 products[0] = nil // nil significa a ausência de valor
 
-🔵 MÉTODO DELETE mais legal —> 
+//🔵 MÉTODO DELETE mais legal —> 
 removeValue(forKey: 0) // a partir da chave informada, remove o item
 
-🟡 READ de chave —>
+//🟡 READ de chave —>
 for key in products.key { print(key) }
 
-🟡 READ de valor —>
+//🟡 READ de valor —>
 for val in products.values { print(val) }
 
-🟡 READ key-value —>
+//🟡 READ key-value —>
 for (key, value) in products { print (“chave: \(key), valor: \(valor))” }
 ```
 ## 🙂 Sets
