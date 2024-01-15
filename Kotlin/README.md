@@ -396,17 +396,6 @@ person.name //"Joe Smith"
 
 ---
 
-## 🔐 Encapsulamento
-- Serve pra definir os tipos de acesso às classes, propriedades e métodos
-- Tipos:
-  - ***public*** – Permite acesso a qualquer outro elemento.
-  - ***internal*** – Permite acesso apenas dentro da própria classe e nas classes herdeiras.
-  - ***private*** – Permite acesso apenas dentro da classe na qual foi declarada.
-
-- **OBS**:
-  - por padrão, o nível de encapsulamento é '*internal*'.
-  - o encapsulamento do Swift funciona apenas se a classe e sua instância estiverem em arquivos separados.
-
 ## 🌳 Herança
 - [Inheritance in Kotlin](https://kotlinlang.org/docs/inheritance.html)
 - Permite compartilhar métodos e atributos entre classes
