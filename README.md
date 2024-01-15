@@ -108,5 +108,6 @@ Repositório voltado para ***organizar, registrar e manter*** todos os conhecime
 
 ---
 ### Para mais informações sobre **Swift** e **Kotlin**
-- [Swift](https://github.com/LucasSGonza/JovemAprendizIntelbras-Lucas/blob/main/Swift/README.md)
-//kotlin
+- [Swift](https://github.com/LucasSGonza/JovemAprendizIntelbras-Lucas/tree/main/Swift)
+- [Kotlin](https://github.com/LucasSGonza/JovemAprendizIntelbras-Lucas/tree/main/Kotlin)
+---
