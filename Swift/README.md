@@ -64,7 +64,7 @@ Ex:
 ```swift
 //forçar o desempacotamento (usado quando se tem certeza do tipo da variável)
 
-nome as! String<br>
+nome as! String
 
 //tentará mudar o tipo para String, mas retornará nil caso não consiga
 
