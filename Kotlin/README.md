@@ -393,9 +393,7 @@ fun auctionPrice(bid: Bid?, minimumPrice: Int): Int {
 val person = Person("Joe Smith")
 person.name //"Joe Smith"
 ```
-
 ---
-
 ## 🌳 Herança
 - [Inheritance in Kotlin](https://kotlinlang.org/docs/inheritance.html)
 - Permite compartilhar métodos e atributos entre classes
@@ -406,4 +404,10 @@ person.name //"Joe Smith"
 ## 🧬 Polimorfismo
 - Permite subclasse (classeFilha) sobrescrever métodos e propriedades da superclasse (classePai)
 - Palavras reservada:  `override`
+
+## 📲 Sobre Desenvolvimento de aplicativos Android
+- [Criar e executar o app](https://developer.android.com/studio/run?hl=pt-br)
+- [Entenda o ciclo de vida da atividade](https://developer.android.com/guide/components/activities/activity-lifecycle?hl=pt-br)
+- [Executar apps em um dispositivo de hardware](https://developer.android.com/studio/run/device?utm_source=android-studio-2021-1-1&hl=pt-br)
+
 ---
