@@ -407,7 +407,8 @@ person.name //"Joe Smith"
 
 ## 📲 Sobre Desenvolvimento de aplicativos Android
 - [Criar e executar o app](https://developer.android.com/studio/run?hl=pt-br)
+- [Desenvolverdor Júnior - Como criar projetos Android em Kotlin e/ou Java em poucos instantes?](https://www.youtube.com/watch?v=Msmqs2VY3kg)
 - [Entenda o ciclo de vida da atividade](https://developer.android.com/guide/components/activities/activity-lifecycle?hl=pt-br)
+- [Diagrama Ciclo de vida da `Activity`](https://developer.android.com/guide/components/images/activity_lifecycle.png?hl=pt-br)
 - [Executar apps em um dispositivo de hardware](https://developer.android.com/studio/run/device?utm_source=android-studio-2021-1-1&hl=pt-br)
-
 ---
