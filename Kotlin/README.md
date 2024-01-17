@@ -413,4 +413,7 @@ person.name //"Joe Smith"
 - [Executar apps em um dispositivo de hardware](https://developer.android.com/studio/run/device?utm_source=android-studio-2021-1-1&hl=pt-br)
 - [Entendendo a estrutura de um projeto Android](https://www.youtube.com/watch?v=2vTAwoxa7MY)
 - [Tiago Aguiar - Como criar um aplicativo para Android do zero](https://www.youtube.com/watch?v=z0gjnpvb8Zg)
+
+[Para mais infos sobre desenvolvimento Android](https://github.com/LucasSGonza/JovemAprendizIntelbras-Lucas/tree/main/Kotlin/Tips.md)
+
 ---
