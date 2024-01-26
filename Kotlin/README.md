@@ -159,7 +159,7 @@ when (x) {
 #### Elvis Operator `?:`
 - [Kotlin Elvis Operator](https://www.baeldung.com/kotlin/elvis-operator)
 - [Elvis Operator - Kotlin Official website](https://kotlinlang.org/docs/null-safety.html#elvis-operator)
-- Em resumo, é o ternário do Kotlin
+- Em resumo, é utilizado em cenários com Nullable's
 - Exemplo:
 ```kotlin
 //using if/else
