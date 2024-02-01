@@ -31,6 +31,7 @@
 - `setContentView()` => define a activity relacionada ao arquivo .kt que irá codar coisas para a tela (igual a relação entre os arquivos `.swift` e `.storyboard`, em Swift)
 - `lateinit` allows initializing a not-null property outside of a constructor 
 - `inflate()` => Inflater in android means to read the XML file which describes a layout and to create the some objects of it
+- [`AlertDialog`](https://www.digitalocean.com/community/tutorials/android-alert-dialog-using-kotlin)
 ---
 - `R` => *class generated automatically by the tools that build your project*
     - [What is 'R' in Kotlin - stackOverflow](https://stackoverflow.com/questions/63333247/whats-r-in-kotlin-android-studio)
