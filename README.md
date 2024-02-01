@@ -88,7 +88,8 @@ Repositório voltado para ***organizar, registrar e manter*** todos os conhecime
 ➡ [https://gitfichas.com/](https://gitfichas.com/)<br>
 ➡ [https://comandosgit.github.io/](https://comandosgit.github.io/)<br>
 ➡ [https://www.freecodecamp.org/portuguese/news/10-comandos-do-git-que-todo-desenvolvedor-deveria-conhecer/](https://www.freecodecamp.org/portuguese/news/10-comandos-do-git-que-todo-desenvolvedor-deveria-conhecer/)<br>
-➡ [https://medium.com/@rafaelpiresvb/programação-reativa-com-reactivex-no-swift-e-kotlin-71e8a78fe07f](https://medium.com/@rafaelpiresvb/programação-reativa-com-reactivex-no-swift-e-kotlin-71e8a78fe07f)
+➡ [https://medium.com/@rafaelpiresvb/programação-reativa-com-reactivex-no-swift-e-kotlin-71e8a78fe07f](https://medium.com/@rafaelpiresvb/programação-reativa-com-reactivex-no-swift-e-kotlin-71e8a78fe07f)<br>
+➡ [https://regexr.com](https://regexr.com)
 
 ---
 
