@@ -18,15 +18,11 @@
     - `strings.xml` => geralmente existe um para cada idioma do app. Caso não existir essa diferenciação, por padrão, buscará o “strings.xml” default
 - Gradle Scripts => gerencia as builds e dependências do projeto
 
----
-
 ## 📝 Alguns padrões
 - nome de arquivos `.kt` => *camel case* (primeiras letras das palavras maiusculas, sem espaços)
 - nome de arquivos `.xml` => *snake case* (primeiras letras usualmente em minusculo, separadas, caso necessário, por `_` (underline)
 - nome do arquivo `.kt` é o contrário do .xml relacionado
     - ex: `MainActivity.kt` , `activity_main.xml`
-    
----
 
 ## 💎 Dicas Gerais
 
@@ -42,18 +38,19 @@
     - *“Android R. java is an auto-generated file by aapt (Android Asset Packaging Tool) that contains resource IDs for all the resources of res/ directory. If you create any component in the activity_main. xml file, id for the corresponding component is automatically created in this file.”*
     - sintaxe: *R  . (tipo de recurso, como `string`, `drawable` e `layout`)  . (nome do recurso / nome do arquivo)*
 ---
-### 📋 Layouts with XML
-- 4 dimensões: start (left), end (right), top e bottom           
-- 1º definir as referências da constraints (`layout_constraint` -> ex: `StartToStartOff = 'parent'` ou `TopToBottomOf='id/main_layout'`), dps caso necessário, os valores com margin (top, start, …)
-- [Difference Between `MATCH_PARENT`, `FILL_PARENT` and `WRAP_CONTENT`](https://www.geeksforgeeks.org/android-difference-between-match_parent-fill_parent-and-wrap_content/)
----
 - ***Scalable pixels* (`sp`) serve the same function as density-independent pixels (`dp`), but for fonts. The default value of an sp is the same as the default value for a dp. The primary difference between an sp and a dp is that sp's preserve a user's font settings.*
 - [Working With Maps in Kotlin](https://www.baeldung.com/kotlin/maps)
 - ***Singleton** is a creational design pattern that lets you ensure that a class has only one instance while providing a global access point to this instance*
     - [Singleton Classes](https://www.baeldung.com/kotlin/singleton-classes)
     - [Singleton utilizando `objects` em Kotlin](https://medium.com/@jeffersontpadua/padrão-singleton-simplificado-utilizando-objects-em-kotlin-e1bc0faeb64e)
 ---
-### 🔑 `Binding`
+
+## 📋 Layouts with XML
+- 4 dimensões: start (left), end (right), top e bottom           
+- 1º definir as referências da constraints (`layout_constraint` -> ex: `StartToStartOff = 'parent'` ou `TopToBottomOf='id/main_layout'`), dps caso necessário, os valores com margin (top, start, …)
+- [Difference Between `MATCH_PARENT`, `FILL_PARENT` and `WRAP_CONTENT`](https://www.geeksforgeeks.org/android-difference-between-match_parent-fill_parent-and-wrap_content/)
+
+## 🔑 `Binding`
 - trata-se de uma alternativa para buscar `Views` do Android
 - por padrão, temos acesso ao `findViewById()`
 - Modo de importar e usar no projeto !
@@ -64,7 +61,6 @@
             viewBinding true
         }
 ```
----
 ```kotlin
     //Na activity (view)
     private lateinit var binding: (a activity que desejar) 
@@ -75,14 +71,14 @@
     binding = ActivityMainBinding.inflate(layoutInflater)
 ```
 ---
-### 📜 `View` e `ViewGroup`
+## 📜 `View` e `ViewGroup`
 - `View` => elemento de tela
 - `ViewGroup` => fundamentalmente tbm são ‘view’s’, mas são uma camada acima, funcionando exatamente como se chamam “grupo de views”.
 - [Layouts - View e ViewGroup](https://developer.android.com/guide/topics/ui/declaring-layout?hl=pt-br)
 
 *Os objetos View geralmente são chamados de "widgets" e podem ser uma das muitas subclasses, como Button ou TextView. Os objetos ViewGroup geralmente são chamados de layouts e podem ser de um dos muitos tipos que fornecem uma estrutura de layout diferente, como LinearLayout ou ConstraintLayout .*
 
-### 🗂 Arquitetura **MVVM**
+## 🗂 Arquitetura **MVVM**
 - [Arquitetura MVVM - Coodesh](https://coodesh.com/blog/dicionario/o-que-e-arquitetura-mvvm/)
 - [About ViewModel in Android](https://www.youtube.com/watch?v=v32hSKtlH9A)
 - Model, View, ViewModel
