@@ -155,6 +155,26 @@ when (x) {
     }
 }
 ```
+- It is also possible to use `when` to attribute value based on the 'cases'. Ex:
+```kotlin
+phoneTextInputLayout.error = when {
+
+    text.isNotEmpty() && myViewModel.verifyIfContactAlreadyExist(text.toString()) -> getString(
+        R.string.error_when_contact_already_exist
+    )
+    
+    text.isEmpty() && shouldShowPhoneTextError -> getString(R.string.error_when_phone_number_is_empty)
+    
+    text.length < 3 && shouldShowPhoneTextError -> getString(R.string.error_when_invalid_phone_number)
+    
+    !validatePhoneText(text.toString()) && shouldShowPhoneTextError -> getString(
+        R.string.error_when_provided_not_only_numbers_in_phone
+    )
+    
+    else -> null
+}
+```
+
 
 #### Elvis Operator `?:`
 - [Kotlin Elvis Operator](https://www.baeldung.com/kotlin/elvis-operator)
