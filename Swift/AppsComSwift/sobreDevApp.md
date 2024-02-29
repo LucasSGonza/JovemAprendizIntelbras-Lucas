@@ -1,4 +1,20 @@
-# Principais coisas sobre meu desenvolvimento no app:
+# 📖 Links de estudo
+
+➡ [Alura - Construção de Layouts no iOS com Swift: Storyboard, XIB e View Code](https://www.alura.com.br/artigos/ios-swift-diferencas-construcao-layouts-storyboard-xib-view-code?gclid=CjwKCAjwp6CkBhB_EiwAlQVyxTN_Ww64Fd-mqoph6pqmOBo-G1BNj3CfPyQqXxegOwGjbAr8yUsJPBoCj5kQAvD_BwE)
+
+➡ [Medium - iOS View Controller Life Cycle](https://medium.com/good-morning-swift/ios-view-controller-life-cycle-2a0f02e74ff5)
+
+➡ [Medium - Como passar entre páginas no Xcode](https://caiocnoronha.medium.com/como-passar-entre-p%C3%A1ginas-no-xcode-f7613820d912)
+
+➡ [YouTube - Swift Tutorial: How to Pass Data Between View Controllers](https://www.youtube.com/watch?v=XzyF36Wun3U)
+
+➡ [YouTube - Swift Tutorial: Introduction to Table Views](https://www.youtube.com/watch?v=DxCydBmOqXU)
+
+➡ [YouTube - Swift Tutorial: How to Use Segues and Pass Data Between View Controllers](https://www.youtube.com/watch?v=09TeUXjzpKs)
+
+---
+
+## Principais coisas sobre meu desenvolvimento no app:
 
 🔸 Deve-se instanciar no código principalmente os 'controls' (label, text, button,...) que irão ser modificados em algum momento da execução do app,
 visto que se for apenas estilizar algo, mt provavel que apenas utilizando a Storyboard dê conta
