@@ -10,7 +10,7 @@ Repositório voltado para ***organizar, registrar e manter*** todos os conhecime
 > [!NOTE]
 > EN: Most of my developed projects are in a single/especial repository here in my GitHub account, so please, feel free to see them :D
 > - [Swift Apps](https://github.com/LucasSGonza/JovemAprendizIntelbras-Lucas/tree/main/Swift/AppsComSwift)
-> - [Kotlin Apps]()
+> - [Kotlin Apps](https://github.com/LucasSGonza/JovemAprendizIntelbras-Lucas/tree/main/Kotlin/AppsComKotlin)
 
 ## <img src='https://git-scm.com/images/logos/downloads/Git-Icon-1788C.svg' width='30px' align='center' style='padding-bottom:5px'/> Dicas sobre Git
 
