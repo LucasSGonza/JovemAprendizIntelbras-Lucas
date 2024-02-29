@@ -1,8 +1,16 @@
-# Jovem Aprendiz Intelbras
+# 📚 Jovem Aprendiz Intelbras
 
 Repositório voltado para ***organizar, registrar e manter*** todos os conhecimentos adquiridos e desenvolvidos durante minha trajetória como **Jovem Aprendiz na Intelbras**
 
----
+### Para acessar minhas anotações sobre **Swift** e **Kotlin** :D
+
+- [Swift](https://github.com/LucasSGonza/JovemAprendizIntelbras-Lucas/tree/main/Swift)
+- [Kotlin](https://github.com/LucasSGonza/JovemAprendizIntelbras-Lucas/tree/main/Kotlin)
+
+> [!NOTE]
+> EN: Most of my developed projects are in a single/especial repository here in my GitHub account, so please, feel free to see them :D
+> - [Swift Apps](https://github.com/LucasSGonza/JovemAprendizIntelbras-Lucas/tree/main/Swift/AppsComSwift)
+> - [Kotlin Apps]()
 
 ## <img src='https://git-scm.com/images/logos/downloads/Git-Icon-1788C.svg' width='30px' align='center' style='padding-bottom:5px'/> Dicas sobre Git
 
@@ -77,11 +85,6 @@ Repositório voltado para ***organizar, registrar e manter*** todos os conhecime
 🔸 git push -u origin main
 ```
 ---
-### 📱 Desenvolvimento Mobile iOS
-
->[Mais infos sobre desenvolvimento iOS](https://github.com/LucasSGonza/JovemAprendizIntelbras-Lucas/blob/main/AppsComSwift/MyApps/myApps.md)
-
----
 
 ### 🌎 Links Gerais
 
@@ -91,24 +94,4 @@ Repositório voltado para ***organizar, registrar e manter*** todos os conhecime
 ➡ [https://medium.com/@rafaelpiresvb/programação-reativa-com-reactivex-no-swift-e-kotlin-71e8a78fe07f](https://medium.com/@rafaelpiresvb/programação-reativa-com-reactivex-no-swift-e-kotlin-71e8a78fe07f)<br>
 ➡ [https://regexr.com](https://regexr.com)
 
----
-
-### 📖 Links de estudo
-
-➡ [Alura - Construção de Layouts no iOS com Swift: Storyboard, XIB e View Code](https://www.alura.com.br/artigos/ios-swift-diferencas-construcao-layouts-storyboard-xib-view-code?gclid=CjwKCAjwp6CkBhB_EiwAlQVyxTN_Ww64Fd-mqoph6pqmOBo-G1BNj3CfPyQqXxegOwGjbAr8yUsJPBoCj5kQAvD_BwE)
-
-➡ [Medium - iOS View Controller Life Cycle](https://medium.com/good-morning-swift/ios-view-controller-life-cycle-2a0f02e74ff5)
-
-➡ [Medium - Como passar entre páginas no Xcode](https://caiocnoronha.medium.com/como-passar-entre-p%C3%A1ginas-no-xcode-f7613820d912)
-
-➡ [YouTube - Swift Tutorial: How to Pass Data Between View Controllers](https://www.youtube.com/watch?v=XzyF36Wun3U)
-
-➡ [YouTube - Swift Tutorial: Introduction to Table Views](https://www.youtube.com/watch?v=DxCydBmOqXU)
-
-➡ [YouTube - Swift Tutorial: How to Use Segues and Pass Data Between View Controllers](https://www.youtube.com/watch?v=09TeUXjzpKs)
-
----
-### Para mais informações sobre **Swift** e **Kotlin**
-- [Swift](https://github.com/LucasSGonza/JovemAprendizIntelbras-Lucas/tree/main/Swift)
-- [Kotlin](https://github.com/LucasSGonza/JovemAprendizIntelbras-Lucas/tree/main/Kotlin)
 ---
