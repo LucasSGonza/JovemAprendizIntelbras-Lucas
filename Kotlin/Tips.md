@@ -5,7 +5,7 @@
 - Trabalhar com os arquivos `.xml` é muito semelhante à trabalhar com os arquivos `.storyboard` do XCode 
 - usar `Log.e(tag: “”, message: “”)` ao inves de `print()
 
-### ⌨️ Shortcuts
+## ⌨️ Shortcuts
 - [Keyboard shortcuts](https://developer.android.com/studio/intro/keyboard-shortcuts?hl=pt-br)
 - F1 => mostra documentação. F1 2x fixa na IDE a doc (igual Xcode). Dá para configurar isso no proprio Android Studio, para aparecer a documentação após x ms.
 - command + alt + L => **identa o código**
@@ -71,7 +71,7 @@
 ```kotlin
     binding = ActivityMainBinding.inflate(layoutInflater)
 ```
----
+
 ## 📜 `View` e `ViewGroup`
 - `View` => elemento de tela
 - `ViewGroup` => fundamentalmente tbm são ‘view’s’, mas são uma camada acima, funcionando exatamente como se chamam “grupo de views”.
@@ -79,9 +79,32 @@
 
 *Os objetos View geralmente são chamados de "widgets" e podem ser uma das muitas subclasses, como Button ou TextView. Os objetos ViewGroup geralmente são chamados de layouts e podem ser de um dos muitos tipos que fornecem uma estrutura de layout diferente, como LinearLayout ou ConstraintLayout .*
 
+## ♻️ `RecyclerView`
+- [Criar listas dinâmicas com o RecyclerView](https://developer.android.com/develop/ui/views/layout/recyclerview?hl=pt-br)
+- [Listando elementos utilizando RecyclerView no Android Studio](https://www.youtube.com/watch?v=za4kz4j3Z7w)
+
+1. Adapter —> _tratamento da lógica/dados_ 
+    - O Adapter é responsável por fornecer os dados e criar as visualizações para cada item na lista. Ele estende a classe RecyclerView.Adapter e implementa métodos específicos, como onCreateViewHolder, onBindViewHolder e getItemCount.
+
+2. LayoutManager —> _tratamento do visual_
+    - O LayoutManager é responsável por posicionar e organizar os itens na RecyclerView. O Android fornece vários LayoutManagers predefinidos, como LinearLayoutManager (para exibir uma lista vertical ou horizontal) e GridLayoutManager (para exibir uma grade), além da possibilidade de criar LayoutManagers personalizados.
+
+3. ViewHolder —> _tratamento do visual INDIVIDUAL de cada item da lista_
+    - O ViewHolder representa uma visualização individual dentro da RecyclerView. Ele é responsável por manter referências aos elementos de interface do usuário dentro de cada item e pode ser personalizado para melhorar o desempenho, implementando técnicas como o padrão de View Holder.
+  
+_O ciclo de vida típico da `RecyclerView` envolve a criação do `Adapter`, definição do `LayoutManager`, vinculação da `RecyclerView` ao `Adapter` e preenchimento da `RecyclerView com dados._
+
+### Comparando com Swift…
+
+- RecyclerView == TableView ou CollectionView
+- Adapter == DataSource ==> tableView.dequeueReusableCell …
+- LayoutManager == Delegate (?)
+- ViewHolder == dataSource + cells (xib + cells) ==> ex: cellForItemAt
+
 ## 🗂 Arquitetura **MVVM**
 - [Arquitetura MVVM - Coodesh](https://coodesh.com/blog/dicionario/o-que-e-arquitetura-mvvm/)
 - [About ViewModel in Android](https://www.youtube.com/watch?v=v32hSKtlH9A)
+- [Arquiteturas em Android : MVVM + Kotlin + Retrofit](https://othiagosouto.medium.com/arquiteturas-em-android-mvvm-kotlin-retrofit-parte-1-2ac77c8a26)
 - Model, View, ViewModel
     - Model = camada lógica, trabalha com data (classes, por ex)
     - View = interface do usuário (trabalha unicamente com UI)
