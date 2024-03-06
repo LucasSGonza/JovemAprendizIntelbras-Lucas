@@ -84,6 +84,10 @@
 - [Listando elementos utilizando RecyclerView no Android Studio](https://www.youtube.com/watch?v=za4kz4j3Z7w)
 - [RecyclerView in Android Studio using Kotlin | 2024](https://www.youtube.com/watch?v=IYhmpUmeGOQ)
 - [RecyclerView in Kotlin: A Modern Way to Display Lists in Android](https://rezaramesh.medium.com/recyclerview-in-kotlin-a-modern-way-to-display-lists-in-android-9c5cb3678b96)
+- [RecyclerView Swipe to delete with Background Icon. Android Studio | Kotlin.](https://www.youtube.com/watch?v=V0I0Zc2b4gk)
+    - [RecyclerViewSwipeDecorator](https://github.com/xabaras/RecyclerViewSwipeDecorator?tab=readme-ov-file)
+
+---
 
 1. Adapter —> _tratamento da lógica/dados_ 
     - O Adapter é responsável por fornecer os dados e criar as visualizações para cada item na lista. Ele estende a classe RecyclerView.Adapter e implementa métodos específicos, como onCreateViewHolder, onBindViewHolder e getItemCount.
